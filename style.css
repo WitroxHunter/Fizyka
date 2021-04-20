@@ -1,0 +1,152 @@
+.menu {
+    width: auto;
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.8);
+}
+td {
+    padding: 40px;
+}
+a {
+    text-decoration: none;
+
+    color: white;
+  }
+
+.pionowy {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 15px ;
+    transition: 0.6s ease;
+}
+.pionowy:hover {
+
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 25px ;
+    transform: scale(1.1);
+}
+
+.poziomy {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 15px ;
+    transition: 0.6s ease;
+}
+.poziomy:hover {
+
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 25px ;
+    transform: scale(1.1);
+}
+
+.spadanie {
+
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 15px ;
+    transition: 0.6s ease;
+}
+.spadanie:hover {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 25px ;
+    transform: scale(1.1);
+}
+
+.silagrawitacji {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 15px ;
+    transition: 0.6s ease;
+}
+
+.silagrawitacji:hover {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 25px ;
+    transform: scale(1.1);
+}
+
+.energia {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 15px ;
+    transition: 0.6s ease;
+}
+
+.energia:hover {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 25px ;
+    transform: scale(1.1);
+}
+.sprezystosc {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 15px ;
+    transition: 0.6s ease;
+}
+
+.sprezystosc:hover {
+    border-radius: 20px;
+    left: 33%;
+    height: 250px;
+    width: 350px;
+    background-color: rgba(0, 156, 246, 0.705);
+    box-shadow: rgba(0, 0, 0, 1) 12px 12px 25px ;
+    transform: scale(1.1);
+}
+
+
+.footer {
+    width: auto;
+    height: 30px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.dzialania {
+    height: 800px;
+    background-color: rgba(0, 0, 0, 0.9);
+    width: 80%;
+    margin-top: 3%;
+}
+
+button {
+    height: 100px;
+    width: 150px;
+    font-size: 40px;
+}

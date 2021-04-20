@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="pl">
+    <link rel="stylesheet" href="style.css">
+    <title>Rzuty</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <script>
+        function dzialanie()
+        {
+            var l1 = document.getElementById("v").value;
+            var l2 = document.getElementById("h").value;
+            var l3 = document.getElementById("g").value;
+            var czaslotu =  l1 * Math.sqrt((2 * l2) / l3)
+            document.getElementById("lot").innerHTML="S ="+ czaslotu
+        }
+</script>
+</head>
+<body background="bg.jpg">
+<div class="menu"><font color="white" size="7"><b>
+<center><b>Rzut Poziomy</b></font><font color="white">
+    <div class="dzialania"><font size="6">
+        <table>
+            <tr>
+                <td>
+                    <img src="rzutpoz.jpg" height="180">
+                </td>
+                <td>
+                    S - zasięg rzutu [m]<br>
+                    V0 - prędkość początkowa [m/s]<br>
+                    h - wysokość na której znajduje się ciało [m]<br>
+                    g - przyspieszenie ziemskie 9,81[m/s]<br>
+                    t- czas [s]<br>
+                </td></tr><tr><td>
+                    <img src="poziomyodleglosc.png">
+                </td><td>
+                    Podaj V <input type="text" id="v"><br><br>
+                    Podaj h <input type="text" id="h"><br><br>
+                    Podaj g <input type="text" id="g"><br><br>
+                </td>
+                <td>
+                <button onclick="dzialanie()"><b>Oblicz!</b></button>
+                </td>
+            </tr>
+            <tr>
+                <td><center>
+                    Wynik:
+                </td></center>
+                <td>
+                    <div id="lot"></div>
+                </td>
+            </tr>
+        </table>
+        <br><a href="index.html"><u>Powrót do strony startowej</a></u>
+
+
+
+    </div>
+</center>
+</font></font>
+</div>
+</body>
+</html>

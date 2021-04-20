@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta lang="pl">
+    <link rel="stylesheet" href="style.css">
+    <title>Siła Grawitacji</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <script>
+        function dzialanie()
+        {
+            var M1 = document.getElementById("m1").value;
+            var M2 = document.getElementById("m2").value;
+            var G = document.getElementById("g").value;
+            var R = document.getElementById("r").value;
+            var silag = G * ((M1 * M2) / R * R)
+            document.getElementById("sila").innerHTML="F ="+silag
+        }
+    </script>
+
+</head>
+<body background="bg.jpg">
+<div class="menu"><font color="white" size="7"><b>
+<center><b>Siła Grawitacji ciał niebieskich</b></font><font color="white">
+    <div class="dzialania"><font size="5">
+        <table>
+            <tr>
+                <td>
+                    <img src="silagrawitacji.png" height="180">
+                </td>
+                <td>
+                    m1, m2 - masy przyciągających się ciał
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    Podaj m1 <input type="text" id="m1"><br>
+                    Podaj m2 <input type="text" id="m2"><br>
+                    Podaj G <input type="text" id="g"><br>
+                    Podaj r <input type="text" id="r">
+                </td>
+          
+                <td>
+                    <button onclick="dzialanie()"><b>Oblicz!</b></button>
+                </td>
+            </tr>
+            <tr><td>Wynik:</td><td><div id="sila"></div></td></tr>
+        </table>
+        <br><br><a href="index.html"><u>Powrót do strony startowej</a></u>
+
+
+
+
+    </div>
+</center>
+</font></font>
+</div>
+</body>
+</html>
